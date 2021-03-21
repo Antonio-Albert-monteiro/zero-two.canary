@@ -1,0 +1,29 @@
+{
+  "name": "zero-two",
+  "version": "1.0.1",
+  "description": "Ignore isso",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "discord.js": "^12.5.1",
+    "quick.db": "^7.1.2",
+    "parse-ms": "^2.1.0",
+    "axios": "^0.21.1",
+    "weather-js": "^2.0.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
