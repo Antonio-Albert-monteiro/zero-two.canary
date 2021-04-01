@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require("./config.json");
-const server = require("./server.js");
+const serve = require('./serve')
 
 client.on("ready", () => {
   let activities = [
@@ -42,4 +42,4 @@ client.on('message', message => {
   }
 });
 
-client.login(process.env.TOKEN);
+client.login('ODIz');
