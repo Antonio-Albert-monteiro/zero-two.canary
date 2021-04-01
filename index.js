@@ -42,4 +42,4 @@ client.on('message', message => {
   }
 });
 
-client.login('ODIz');
+client.login(process.env.TOKEN);
